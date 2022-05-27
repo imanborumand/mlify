@@ -1,0 +1,25 @@
+{
+    "name": "imanborumand/mlify",
+    "description": "A romantic package for faster connection with Firebase!",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Imanborumand\\Mlify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iman borumand zadeh",
+            "email": "imanborumand@gmail.com"
+        }
+    ],
+    "require": {},
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imanborumand\\Mlify\\MlifyServiceProvider"
+            ]
+        }
+    }
+}
