@@ -1,8 +1,4 @@
-<?php
-
-namespace Imanborumand\Mlify;
-
-use Carbon\Carbon;
+<?php namespace Imanborumand\Mlify;
 
 class Mlify
 {
